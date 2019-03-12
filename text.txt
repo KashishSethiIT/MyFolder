@@ -1,0 +1,218 @@
+Hello This is linux
+bye
+
+1  sudo apt-add-repository ppa:webupd8team/java
+    2  sudo apt-get update
+    3  sudo apt-get install oracle-java8-installer
+    4  clear
+    5  sudo gedit/tec/profile
+    6  sudo gedit/etc/profile
+    7  sudo gedit etc/profile
+    8  clear
+    9  tar xfz ~/eclipse-inst-linux64.tar.gz
+   10  tar xfz ~/Downloads/eclipse-inst-linux64.tar.gz
+   11  ~/Downloads/eclipse-installer/eclipse-inst
+   12  tar xfz ~/Downloads/eclipse-inst-linux64.tar.gz 
+   13  ~/Downloads/eclipse-installer/eclipse-inst
+   14  tar xfz ~/Downloads/eclipse-inst-linux64.tar.gz ~/Downloads/eclipse-installer/eclipse-inst
+   15  ~/Downloads/eclipse-inst
+   16  clea
+   17  clear
+   18  sudo apt-get install git
+   19  sudo add-apt-repository ppa:git-core/ppa
+   20  clear
+   21  sudo apt-get update
+   22  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+   23  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   24  Hello128
+   25  sudo apt update
+   26  sudo apt install jenkins
+   27  systemctl status jenkins
+   28  sudo ufw allow 8080
+   29  sudo ufw status
+   30  systemctl status jenkins
+   31  sudo status jenkins
+   32  service jenkins status
+   33  ufw enable
+   34  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   35  clear
+   36  sudo apt update
+   37  sudo apt install mysql-server
+   38  mysql -u root -p
+   39  clear
+   40  sudo apt-get update
+   41  wget http://www.poolsaboveground.com/apache/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.tar.gz
+   42  wget --no-check-certificate https://www.apache.org/dist/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.tar.gz.md5
+   43  clea
+   44  clear
+   45  sudo groupadd tomcat
+   46  sudo useradd -s /bin/false -g tomcat -d /opt/apache-tomcat-8.0.39 tomcat
+   47  sudo wget http://www-us.apache.org/dist/tomcat/tomcat-8/v8.0.39/bin/apache-tomcat-8.0.39.tar.gz
+   48  wget http://mirrors.ibiblio.org/apache/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.tar.gz
+   49  sudo groupadd tomcat
+   50  sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+   51  cd /tmp
+   52  curl -O http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
+   53  sudo mkdir /opt/tomcat
+   54  sudo tar xzvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1
+   55  cd /opt/tomcat
+   56  sudo chgrp -R tomcat /opt/tomcat
+   57  sudo ufw allow 8080
+   58  sudo systemctl enable tomcat
+   59  clear
+   60  wget http://www.poolsaboveground.com/apache/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.tar.gz
+   61  wget http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
+   62  wget --no-check-certificate https://www.apache.org/dist/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.tar.gz.md5
+   63  sudo tar -zxvf apache-tomcat-8.0.9.tar.gz -C /var/local/
+   64  sudo /var/local/apache-tomcat-8.5.5/bin/startup.sh
+   65  sudo groupadd tomcat
+   66  wget http://www.apache.org/dist/tomcat/tomcat-8/v8.0.21/bin/apache-tomcat-8.0.21.tar.gz
+   67  clR
+   68  clear
+   69  wget http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
+   70  sudo tar -zxvf apache-tomcat-8.5.5.tar.gz -C /var/local/
+   71  sudo /var/local/apache-tomcat-8.5.5/bin/startup.sh
+   72  clear
+   73  sudo groupadd tomcat
+   74  sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+   75  cd /tmp
+   76  curl -O http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
+   77  sudo mkdir /opt/tomcat
+   78  sudo tar xzvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1
+   79  cd /opt/tomcat
+   80  clear
+   81  sudo chgrp -R tomcat /opt/tomcat
+   82  sudo chmod -R g+r conf
+   83  sudo mkdir /usr/local/tomcat
+   84  chown -R hduser /usr/local/tomcat
+   85  chown -R kashishsethi /usr/local/tomcat
+   86  cd /home/hduser/Desktop/
+   87  cd /home/Desktop/
+   88  tar xzf apache-tomcat-8.5.5.tar.gz
+   89  tar xzf apache-tomcat-8.5.38.tar.gz
+   90  mv apache-tomcat-8.5.38/* /usr/local/tomcat
+   91  sudo mkdir /usr/local/tomcat
+   92  clear
+   93  sudo chown -R kashishsethi /usr/local/tomcat
+   94  sudo chmod -R 755 /usr/local/tomcat
+   95  cd /home/hduser/Desktop/
+   96  cd /home/Desktop/
+   97  cd /home/kashishsethi/Desktop/
+   98  tar xzf apache-tomcat-8.5.38.tar.gz
+   99  -
+  100  ~
+  101  !
+  102  /etc/default/jenkins
+  103  vim /etc/init.d/jenkins
+  104  mkdir -p /media/mysystem/Data/Jenkins
+  105  java -jar jenkins.war --httpPort=8081
+  106  java -jar jenkins.war --httpPort=9090
+  107  vim /etc/sysconfig/jenkins
+  108  JENKINS_PORT="8083"
+  109  service jenkins restart
+  110  cleae
+  111  clear
+  112  /etc/default/jenkins
+  113  vim /etc/sysconfig/jenkins
+  114  sudo nano /etc/default/jenkins
+  115  sudo service jenkins restart
+  116  sudo nano /etc/default/jenkins
+  117  sudo service jenkins restart
+  118  sudo nano /etc/default/jenkins
+  119  sudo service jenkins restart
+  120  tar xzf apache-tomcat-8.5.38.tar.gz
+  121  mv apache-tomcat-8.5.38/* /usr/local/tomcat
+  122  sudo gedit $HOME/.bashrc
+  123  source $HOME/.bashrc
+  124  cd $CATALINA_HOME/bin
+  125  ./startup.sh
+  126  sudo systemctl start tomcat
+  127  ./startup.sh
+  128  ./shutdown.sh
+  129  ./startup.sh
+  130  ./shutdown.sh
+  131  sudo apt-get install samba
+  132  exit
+  133  ipconfg
+  134  ifconfig
+  135  sudo useradd -M -N -g sambashare home
+  136  sudo smbpassword -a Home
+  137  sudo smbpasswd -a Home
+  138  ifconfig
+  139  sudo service smbd restart
+  140  exit
+  141  sudo -H gedit /etc/samba/smb.conf
+  142  exit
+  143  cal
+  144  date
+  145  pwd
+  146  ll
+  147  clear
+  148  ls
+  149  clear
+  150  ll
+  151  mkd Hello_Linux
+  152  pwd
+  153  mkd Hello_Linux
+  154  mkdir Hello_Linux
+  155  cd Hello_Linx
+  156  cd Hello_Linux
+  157  cd -
+  158  cd ~
+  159  mkdir Hello_Linux2
+  160  cd Hello_Linux
+  161  mkdir Linux_1
+  162  cd ..
+  163  pwd
+  164  cd Hello_linux
+  165  cd Hello_Linux
+  166  cd Linux_1
+  167  cd ..
+  168  cd Linux_1
+  169  cd -
+  170  cd ~
+  171  pwd
+  172  cd Hello_Linux
+  173  cd Linux_1
+  174  clear
+  175  pwd
+  176  cd -
+  177  pwd
+  178  cd +
+  179  cd Linux_1
+  180  pwd
+  181  cat > Hello.txt
+  182  cat Hello.txt
+  183  ls
+  184  cat Hello.txt >> test.txt
+  185  ls
+  186  cd test
+  187  cat Linux_1
+  188  ls
+  189  mkdir test
+  190  cat test
+  191  cp test.txt test/copy.txt
+  192  mv test.txt test/copy.txt
+  193  cd ..
+  194  pwd
+  195  ls
+  196  cd Linux_1
+  197  ls
+  198  cat Hello.txt >> text.txt
+  199  pwd
+  200  ls
+  201  ll
+  202  clear
+  203  nano emp.csv
+  204  ls
+  205  ll
+  206  cat emp.csv
+  207  nano emp.csv
+  208  cat emp.csv
+  209  ll
+  210  chmod 777 text.txt
+  211  ll
+  212  chmod 577 text.txt
+  213  chmod 777 text.txt
+  214  history
+
